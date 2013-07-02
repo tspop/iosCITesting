@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		087FE01B1D114DFDACBDE29B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C48E13517614E6494407662 /* libPods.a */; };
+		1261C4A91782DE9E00D13930 /* SimpleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261C4A81782DE9E00D13930 /* SimpleTest.m */; };
+		1261C4AF1782E06B00D13930 /* NumberDoubler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261C4AE1782E06B00D13930 /* NumberDoubler.m */; };
+		1261C4B01782E06B00D13930 /* NumberDoubler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1261C4AE1782E06B00D13930 /* NumberDoubler.m */; };
 		12AB37E11782D2B80060334D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AB37E01782D2B80060334D /* UIKit.framework */; };
 		12AB37E31782D2B80060334D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AB37E21782D2B80060334D /* Foundation.framework */; };
 		12AB37E51782D2B80060334D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AB37E41782D2B80060334D /* CoreGraphics.framework */; };
@@ -33,6 +36,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1261C4A81782DE9E00D13930 /* SimpleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTest.m; sourceTree = "<group>"; };
+		1261C4AD1782E06B00D13930 /* NumberDoubler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberDoubler.h; sourceTree = "<group>"; };
+		1261C4AE1782E06B00D13930 /* NumberDoubler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberDoubler.m; sourceTree = "<group>"; };
 		12AB37DD1782D2B80060334D /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12AB37E01782D2B80060334D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		12AB37E21782D2B80060334D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +143,8 @@
 				12AB37FE1782D2B90060334D /* MasterViewController.xib */,
 				12AB38011782D2B90060334D /* DetailViewController.xib */,
 				12AB37E71782D2B80060334D /* Supporting Files */,
+				1261C4AD1782E06B00D13930 /* NumberDoubler.h */,
+				1261C4AE1782E06B00D13930 /* NumberDoubler.m */,
 			);
 			path = SimpleProject;
 			sourceTree = "<group>";
@@ -159,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				12AB387C1782DD180060334D /* Supporting Files */,
+				1261C4A81782DE9E00D13930 /* SimpleTest.m */,
 			);
 			path = SimpleProjectTests;
 			sourceTree = "<group>";
@@ -340,6 +349,7 @@
 				12AB37F11782D2B80060334D /* AppDelegate.m in Sources */,
 				12AB37FA1782D2B90060334D /* MasterViewController.m in Sources */,
 				12AB37FD1782D2B90060334D /* DetailViewController.m in Sources */,
+				1261C4AF1782E06B00D13930 /* NumberDoubler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +358,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				12AB38821782DD180060334D /* main.m in Sources */,
+				1261C4A91782DE9E00D13930 /* SimpleTest.m in Sources */,
+				1261C4B01782E06B00D13930 /* NumberDoubler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
